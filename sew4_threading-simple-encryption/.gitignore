@@ -1,0 +1,6 @@
+.cache/
+.coverage
+.idea/
+__pycache__/
+docs/build
+target/

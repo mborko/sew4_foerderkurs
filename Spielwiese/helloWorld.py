@@ -1,4 +1,7 @@
 
+def main():
+    pass
+
 
 class HalloWelt:
 
@@ -9,5 +12,6 @@ class HalloWelt:
         print("Hallo " + name + ", ist heute nicht ein wunderschöner Tag!?")
 
 
-hw = HalloWelt()
-hw.intro()
+if __name__ == "__main__":
+    hw = HalloWelt()
+    hw.intro()
