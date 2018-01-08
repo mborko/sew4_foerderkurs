@@ -5,6 +5,12 @@ def main():
 
 class HalloWelt:
 
+    def __init__(self):
+        pass
+
+    def __machen_wir_was(self):
+        pass
+
     def intro(self):
         print("Hello World!")
         name = input("Sag mir bitte deinen Namen: ")
