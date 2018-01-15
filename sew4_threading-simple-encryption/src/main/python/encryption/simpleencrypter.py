@@ -36,7 +36,7 @@ class SimpleEncrypter(threading.Thread):
             dict(map(reversed, SimpleEncrypter.dictionary.items()))
             SimpleEncrypter.decryption = not SimpleEncrypter.decryption
         print(SimpleEncrypter.dictionary)
-cd
+
     @staticmethod
     def setMessage(message):
         SimpleEncrypter.message = list(message)
